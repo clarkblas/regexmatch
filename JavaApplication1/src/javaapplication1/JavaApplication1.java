@@ -3,7 +3,7 @@ public class JavaApplication1 {
    
     public static boolean isTrue(String str)
        {
-       return str.matches("[t/T]true");
+       return str.matches("[tT]true");
        }
     public static void main(String[] args)
     {
